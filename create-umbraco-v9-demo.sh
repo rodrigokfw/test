@@ -2,7 +2,7 @@
 echo "UMBRACO 9 DEMO INSTALL"
 
 # Set the default name for this demo
-demoNameDefault='airflux-webpage-0'
+demoNameDefault='umbracov9-demo-'$RANDOM
 
 # Get the demo name from the user
 echo 
@@ -26,15 +26,15 @@ cd "$demoName" || exit
 groupName="rg-"$demoName
 location=BrazilSouth
 serverName="sqlServer-"$demoName
-adminUser="rodrigodonoso242@hotmail.com"
-adminPassword="Kukaracha@12#"
+adminUser="serveradmin"
+adminPassword="High5Ur0ck#"$RANDOM
 dbName="sqlDb-"$demoName
 appServiceName="app-"$demoName
-deployUserName="Rodrigo"
-deployPassword="Kukaracha@12#"
+deployUserName="u9deployer"
+deployPassword="woofW00F#9"$RANDOM
 umbracoAdminUserName="DemoUser"
-umbracoAdminEmail="rodrigodonoso242@hotmail.com"
-umbracoAdminPassword="Kukaracha@12"
+umbracoAdminEmail="demo.user@monumentmail.com"
+umbracoAdminPassword="UNatt3nd3d#dotnet5"$RANDOM
 deleteScriptFile="delete-demo-$demoName.sh"
 
 # Create a resource group to contain this demo
