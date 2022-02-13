@@ -24,7 +24,7 @@ cd "$demoName" || exit
 
 # Set variables
 groupName="rg-"$demoName
-location=EastUS
+location=BrazilSouth
 serverName="sqlServer-"$demoName
 adminUser="serveradmin"
 adminPassword="High5Ur0ck#"$RANDOM
